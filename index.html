@@ -10,101 +10,181 @@
     <link rel="stylesheet" href="./normalize.css">
 </head>
 <body>
-    <div class="container">
-    <header class="container-header">
-        <h1><span>Web</span>studio</h1>
-        <nav>
-            <ul class="menu">
-                <li><a href="" class="BlackText">Контакти</a></li>
-                <li><a href="" class="BlackText">Портфоліо</a></li>
-                <li><a href="" class="BlueText">Студія</a></li>
-                <li><a href="" class="BlueText">info@devstudio.com</a></li>
-                <li><a href="" class="BlackText">+38 096 111 11 11</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="container-main">
-        <section class="SectionOne">
-            <div class="h2-title"><h2 class="H2Text">Ефективні рішення для вашого бізнесу</h2></div>
-            <a href="https://bi-serv.com/" target="_blank">
-                <div class="button"><button type="button"><p>Замовити послугу</p></button></div></a>
-        </section>
-        <section class="SectionTwo"> 
-            <div class="work-description">    
-                <article>
-                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-                   <p>Ідейні міркування, і навіть початок
-                    повсякденної роботи з формування
-                    позиції.</p>
-                </article>
-                <article>
-                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
-                    <p>Завдання організації, особливо рамки
-                    і місце навчання кадрів тягне у себе.</p>
-                </article>
-                <article>
-                    <h4>ПЛАНУВАННЯ</h4>
-                    <p>Так само консультація з широким
-                    активом значною мірою зумовлює.</p>
-                </article>      
-                <article>
-                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                    <p>Значимість цих проблем настільки
-                    очевидна, що реалізація планових
-                    завдань.</p>
-                </article>
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <div class="nav-container">
+                    <h1><span class="logo-span">Web</span>Studio</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="">Студія</a></li>
+                            <li><a href="">Портфоліо</a></li>
+                            <li><a href="">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-div">
+                    <div class="header-info">
+                        <img src="src/icons/email.webp" alt="Oops, there was supposed to be a picture here.">
+                        <a href="">info@devstudio.com</a>
+                    </div>
+                    <div class="header-number">
+                        <img src="src/icons/phone.webp" alt="Oops, there was supposed to be a picture here.">
+                        <a href="">+38 096 111 11 11</a>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="SectionThree">
-            <h2 class="H2Text3">Чим ми займаємося</h2>
-            <div class="work">   
-                <img src="Images/01590214fe209b7db875477ca0f844823574082d.jpg"  alt="" class="img-work">
-                <img src="Images/8dac6a22eff34a388bbc6409758a002e5a58c3ca.jpg"  alt="" class="img-work">
-                <img src="Images/4ca103f5ff490664ba91f138b9f708e01d65306a.jpg"  alt="" class="img-work">
-            </div> 
-        </section>
-        <section class="SectionFour">
-            <h2 class="H2Text2">Наша команда</h2>
-        <div class="team-container">
-            <div class="article-member">
-                <article class="member">
-                <img src="Images/8c1e65c101b0562402f9066520924acac0be8dc7.jpg" width = "270"  height = "260" alt="">
-                <h5>Ігор Дем'яненко</h5>
-                <p>Product Designer</p>
-            </article>
+        </header>
+        <main>
+            <section class="hero">
+                <h2>Ефективні рішення для вашого бізнесу</h2>
+                <button>Замовити послугу</button>
+            </section>
+            <section class="work">
+                <div class="work-container">
+                    <div class="work-div">
+                        <img src="src/images/aerial.webp" alt="Oops, there was supposed to be a picture here.">
+                        <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+                        <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    </div>
+                    <div class="work-div">
+                        <img src="src/images/watch.webp" alt="Oops, there was supposed to be a picture here.">
+                        <h3>ПУНКТУАЛЬНІСТЬ</h3>
+                        <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    </div>
+                    <div class="work-div">
+                        <img src="src/images/laptop.webp" alt="Oops, there was supposed to be a picture here.">
+                        <h3>ПЛАНУВАННЯ</h3>
+                        <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </div>
+                    <div class="work-div">
+                        <img src="src/images/astronaut.webp" alt="Oops, there was supposed to be a picture here.">
+                        <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                        <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="portfolio-container">
+                    <h2>Чим ми займаємося</h2>
+                    <div>
+                        <div class="portfolio-div">
+                            <img src="src/images/desktop.webp" alt="Oops, there was supposed to be a picture here.">
+                            <div>
+                                <p>Десктопні додатки</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-div">
+                            <img src="src/images/mobile.webp" alt="Oops, there was supposed to be a picture here.">
+                            <div>
+                                <p>Мобільні додатки</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-div">
+                            <img src="src/images/design.webp" alt="Oops, there was supposed to be a picture here.">
+                            <div>
+                                <p>Дизайнерські рішення</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="team-container">
+                    <h2>Наша команда</h2>
+                    <div>
+                        <article class="team-art">
+                            <img src="src/images/productMan.webp" alt="Oops, there was supposed to be a picture here." style="width: 270px; height: 260px;">
+                            <h3>Ігор Дем'яненко</h3>
+                            <p>Product Designer</p>
+                            <div>
+                                <img src="src/brand/instagram.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/twitter.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/facebook.webp" alt="Oops, there was supposed to be a picture here." class="facebook">
+                                <img src="src/brand/In.webp" alt="Oops, there was supposed to be a picture here.">
+                            </div>
+                        </article>
+                        <article class="team-art">
+                            <img src="src/images/FrontEndGirl.webp" alt="Oops, there was supposed to be a picture here." style="width: 270px; height: 260px;">
+                            <h3>Ольга Рєпіна</h3>
+                            <p>Frontend Developer</p>
+                            <div>
+                                <img src="src/brand/instagram.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/twitter.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/facebook.webp" alt="Oops, there was supposed to be a picture here." class="facebook">
+                                <img src="src/brand/In.webp" alt="Oops, there was supposed to be a picture here.">
+                            </div>
+                        </article>
+                        <article class="team-art">
+                            <img src="src/images/MarketingMan.webp" alt="Oops, there was supposed to be a picture here." style="width: 270px; height: 260px;">
+                            <h3>Микола Тарасов</h3>
+                            <p>Marketing</p>
+                            <div>
+                                <img src="src/brand/instagram.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/twitter.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/facebook.webp" alt="Oops, there was supposed to be a picture here." class="facebook">
+                                <img src="src/brand/In.webp" alt="Oops, there was supposed to be a picture here.">
+                            </div>
+                        </article>
+                        <article class="team-art">
+                            <img src="src/images/UIMan.webp" alt="Oops, there was supposed to be a picture here." style="width: 270px; height: 260px;">
+                            <h3>Михайло Єрмаков</h3>
+                            <p>UI Designer</p>
+                            <div>
+                                <img src="src/brand/instagram.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/twitter.webp" alt="Oops, there was supposed to be a picture here.">
+                                <img src="src/brand/facebook.webp" alt="Oops, there was supposed to be a picture here." class="facebook">
+                                <img src="src/brand/In.webp" alt="Oops, there was supposed to be a picture here.">
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="client">
+                <div class="client-container">
+                    <h2>Постійні клієнти</h2>
+                    <div>
+                        <img src="src/brand/yaco.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/Tagline.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/company.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/foster.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/brand.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/Tag.webp" alt="Oops, there was supposed to be a picture here.">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <h2><span class="logo-span">Web</span>Studio</h2>
+                    <ul>
+                        <li>м. Київ, пр-т Лесі Українки, 26</li>
+                        <li>info@devstudio.com</li>
+                        <li>+38 096 111 11 11</li>
+                    </ul>
+                </div>
+                <div class="footer-join">
+                    <h3>приєднуйтесь</h3>
+                    <div>
+                        <img src="src/brand/instagram.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/twitter.webp" alt="Oops, there was supposed to be a picture here.">
+                        <img src="src/brand/facebook.webp" alt="Oops, there was supposed to be a picture here." class="facebook">
+                        <img src="src/brand/In.webp" alt="Oops, there was supposed to be a picture here.">
+                    </div>
+                </div>
+                <div class="footer-input">
+                    <h3>Підпишіться на розсилку</h3>
+                    <form>
+                        <input type="email" placeholder="E-mail">
+                        <div>
+                            <button type="submit">Підписатися</button>
+                            <img src="src/icons/iconSend.webp" alt="Oops, there was supposed to be a picture here.">
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="article-member">
-                <article class="member">
-                <img src="Images/cbc143718ed9ff0c05008e3e7ae5285b05efd211.jpg" width = "270"  height = "260" alt="">
-                <h5>Ольга Рєпіна</h5>
-                <p>Frontend Developer</p>
-            </article>
-            </div>
-            <div class="article-member">
-                <article class="member">
-                <img src="Images/b9f51817c03fb848ed9dfc89543bbe97156c3661.jpg" width = "270"  height = "260" alt="">
-                <h5>Микола Тарасов</h5>
-                <p>Marketing</p>
-            </article>
-            </div>
-            <div class="article-member">
-                <article class="member">
-                <img src="Images/335d4d847ff905b2d5f56aa0d2b29aa48e997cd8.jpg" width = "270"  height = "260" alt="">
-                <h5>Михайло Єрмаков</h5>
-                <p>UI Designer</p>
-            </article>
-            </div>
-        </div>
-        </section>
-    </main>
-    <footer class="container-footer">
-        <h3 class="logo"><span>Web</span>studio</h3>
-        <ul class="menu2">
-            <li class="menu2-li">м. Київ, пр-т Лесі Українки, 26</li>
-            <li class="menu2-li">info@devstudio.com</li>
-            <li class="menu2-li">+38 096 111 11 11</li>
-        </ul>
-    </footer>
+        </footer>
     </div>
 </body>
 </html>
