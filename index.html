@@ -17,9 +17,9 @@
                     <h1><span class="logo-span">Web</span>Studio</h1>
                     <nav>
                         <ul>
-                            <li><a href="">Студія</a></li>
-                            <li><a href="">Портфоліо</a></li>
-                            <li><a href="">Контакти</a></li>
+                            <li><a href="" class="href">Студія</a></li>
+                            <li><a href="" class="href">Портфоліо</a></li>
+                            <li><a href="" class="href">Контакти</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -38,7 +38,54 @@
         <main>
             <section class="hero">
                 <h2>Ефективні рішення для вашого бізнесу</h2>
-                <button>Замовити послугу</button>
+                <button class="btn-open" data-modal-open>Замовити послугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="btn" data-modal-close>X</button>
+                        <div class="modal-container">
+                            <h3>Залиште свої дані, ми вам передзвонимо</h3>
+                            <form>
+                                <label class="modal-label">
+                                    <h4>Ім'я</h4>
+                                    <div class="modal-div">
+                                        <img src="src/icons/person.png" alt="Oops, there was supposed to be a picture here.">
+                                        <input type="text" placeholder="Введіть ім'я..." required>
+                                    </div>
+                                </label>
+                                <label class="modal-label">
+                                    <h4>Телефон</h4>
+                                    <div class="modal-div">
+                                        <img src="src/icons/smallPhone.png" alt="Oops, there was supposed to be a picture here.">
+                                        <input type="tel" placeholder="+380XXXXXXXXX" required>
+                                    </div>
+                                </label>
+                                <label class="modal-label">
+                                    <h4>Пошта</h4>
+                                    <div class="modal-div">
+                                        <img src="src/icons/mail.png" alt="Oops, there was supposed to be a picture here.">
+                                        <input type="email" placeholder="example@gmail.com" required>
+                                    </div>
+                                </label>
+                                <label class="modal-textarea">
+                                    <div class="textarea-div">
+                                        <h4>Коментар</h4>
+                                        <input type="text" rows="4" cols="50" placeholder="Введіть текст"></input>
+                                    </div>
+                                </label>
+                                <label>
+                                    <div class="check-div">
+                                        <input type="checkbox" required>
+                                        <div class="modal-li">
+                                            <p>Погоджуюся з розсилкою та приймаю</p>
+                                            <a href="">Умови договору</a>
+                                        </div>
+                                    </div>
+                                </label>
+                                <button type="submit" class="form-btn">Відправити</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="work">
                 <div class="work-container">
@@ -186,5 +233,6 @@
             </div>
         </footer>
     </div>
+    <script src="modal.js"></script>
 </body>
 </html>

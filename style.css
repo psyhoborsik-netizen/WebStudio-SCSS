@@ -61,10 +61,15 @@ a {
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 2%;
+    padding: 28px 0;
 }
 
 a:hover {
     color: #2196F3;
+}
+
+.href:hover {
+    border-bottom: 4px #2196F3 solid;
 }
 
 .header-div {
@@ -123,6 +128,156 @@ a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.backdrop {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backdrop.is-hidden {
+opacity: 0;
+pointer-events: none;
+}
+
+.no-scroll {
+overflow: hidden;
+}
+
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+min-width: 530px;
+min-height: 580px;
+padding: 15px;
+background-color: #FFFFFF;
+transform: translate(-50%, -50%);
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-div {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #21212133;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-div>input {
+    width: 85%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    position: relative;
+    left: 93%;
+    width: 6%;
+    height: 30px;
+    border: 1px solid #0000001A;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.textarea-div>h4 {
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1%;
+
+}
+
+.textarea-div>input {
+    height: 110px;
+    border: 1px solid #21212133;
+}
+
+form {
+    width: 80%;
+}
+
+.textarea-div {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.check-div {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.modal-li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.modal-li>a {
+    text-decoration: underline;
+}
+
+.form-btn {
+    width: 48%;
+    height: 50px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    color: #FFFFFF;
+    border: none;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 6%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
+}
+
+.modal-label>h4 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 1%;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.modal-container>h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+}
+
 
 .work {
     height: 250px;
