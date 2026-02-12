@@ -1,0 +1,140 @@
+footer {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F303A;
+
+    .footer-container {
+    width: 75%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    }
+
+    .footer-input {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-input>h3 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-input>form {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .footer-input>form>input {
+        width: 60%;
+        height: 50px;
+    }
+
+    .footer-input>form>div {
+        width: 40%;
+        height: 50px;
+        background-color: #2196F3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .footer-input>form>div>button {
+        background-color: #2196F3;
+        border: none;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 6%;
+        text-align: center;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+
+    .footer-logo {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-logo>h2 {
+        margin: 14px 0;
+        color: #FFFFFF;
+    }
+
+    .footer-logo>ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-logo>ul>li {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 3%;
+        color: #FFFFFF;
+    }
+
+    .footer-join {
+        width: 20%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer-join>h3 {
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .footer-join>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-join>div>.facebook {
+        max-width: 24px;
+        height: 24px;
+    }
+
+    .footer-join>div>img {
+        max-width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    }
+
+    .logo-span {
+        color: #2196F3;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 100%;
+        letter-spacing: 3%;
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
@@ -17,8 +17,8 @@
                     <h1><span class="logo-span">Web</span>Studio</h1>
                     <nav>
                         <ul>
-                            <li><a href="" class="href">Студія</a></li>
-                            <li><a href="" class="href">Портфоліо</a></li>
+                            <li><a href="/index.html" class="href active">Студія</a></li>
+                            <li><a href="/portfolio.html" class="href">Портфоліо</a></li>
                             <li><a href="" class="href">Контакти</a></li>
                         </ul>
                     </nav>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </header>
-        <main>
+        <main class="main__index">
             <section class="hero">
                 <h2>Ефективні рішення для вашого бізнесу</h2>
                 <button class="btn-open" data-modal-open>Замовити послугу</button>
@@ -46,40 +46,38 @@
                             <h3>Залиште свої дані, ми вам передзвонимо</h3>
                             <form>
                                 <label class="modal-label">
-                                    <h4>Ім'я</h4>
-                                    <div class="modal-div">
+                                    <span>Ім'я</span>
+                                    <span class="modal-div">
                                         <img src="src/icons/person.png" alt="Oops, there was supposed to be a picture here.">
                                         <input type="text" placeholder="Введіть ім'я..." required>
-                                    </div>
+                                    </span>
                                 </label>
                                 <label class="modal-label">
-                                    <h4>Телефон</h4>
-                                    <div class="modal-div">
+                                    <span>Телефон</span>
+                                    <span class="modal-div">
                                         <img src="src/icons/smallPhone.png" alt="Oops, there was supposed to be a picture here.">
                                         <input type="tel" placeholder="+380XXXXXXXXX" required>
-                                    </div>
+                                    </span>
                                 </label>
                                 <label class="modal-label">
-                                    <h4>Пошта</h4>
-                                    <div class="modal-div">
+                                    <span>Пошта</span>
+                                    <span class="modal-div">
                                         <img src="src/icons/mail.png" alt="Oops, there was supposed to be a picture here.">
                                         <input type="email" placeholder="example@gmail.com" required>
-                                    </div>
+                                    </span>
                                 </label>
                                 <label class="modal-textarea">
-                                    <div class="textarea-div">
-                                        <h4>Коментар</h4>
-                                        <input type="text" rows="4" cols="50" placeholder="Введіть текст"></input>
-                                    </div>
+                                    <span class="textarea-div">
+                                        <span>Коментар</span>
+                                        <input type="text" placeholder="Введіть текст">
+                                    </span>
                                 </label>
                                 <label>
-                                    <div class="check-div">
+                                    <span class="check-div">
                                         <input type="checkbox" required>
-                                        <div class="modal-li">
-                                            <p>Погоджуюся з розсилкою та приймаю</p>
+                                            <span>Погоджуюся з розсилкою та приймаю</span>
                                             <a href="">Умови договору</a>
-                                        </div>
-                                    </div>
+                                    </span>
                                 </label>
                                 <button type="submit" class="form-btn">Відправити</button>
                             </form>
@@ -117,19 +115,19 @@
                     <div>
                         <div class="portfolio-div">
                             <img src="src/images/desktop.webp" alt="Oops, there was supposed to be a picture here.">
-                            <div>
+                            <div class="portfolio--hover">
                                 <p>Десктопні додатки</p>
                             </div>
                         </div>
                         <div class="portfolio-div">
                             <img src="src/images/mobile.webp" alt="Oops, there was supposed to be a picture here.">
-                            <div>
+                            <div class="portfolio--hover">
                                 <p>Мобільні додатки</p>
                             </div>
                         </div>
                         <div class="portfolio-div">
                             <img src="src/images/design.webp" alt="Oops, there was supposed to be a picture here.">
-                            <div>
+                            <div class="portfolio--hover">
                                 <p>Дизайнерські рішення</p>
                             </div>
                         </div>
